@@ -24,8 +24,7 @@ let userShema = new schema({
     },
     phone: {
         type: Number,
-        required: true,
-        unique: true
+        required: true
     },
     experience: {
         type: Number,
